@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "vscode_ansible"
+		},
+		{
+			"path": "ansible_collections/hello/world",
+			"name": "hello.world"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"titleBar.activeBackground": "#4d7ac8"
+		},
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"ms-python.vscode-pylance",
+		]
+	},
+}

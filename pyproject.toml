@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vscode_ansible"
+version = "0.1.0"
+description = "VSCode Ansible python dependencies"
+authors = ["Todor Tsankov <tushe@visdigita.net>"]
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ansible-core = "2.11.9"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.981"
+black = {version = "^22.8.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
