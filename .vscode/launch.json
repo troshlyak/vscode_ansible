@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug: Ansible Module",
-            "type": "python",
+            "name": "Python Ansible Module",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "module": "plugins.modules.${fileBasenameNoExtension}",
@@ -18,6 +18,12 @@
                 "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/ansible_collections/hello/world"
             },
             "justMyCode": false
+        },
+        {
+            "name": "PowerShell Ansible Module",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}"
         }
     ]
 }

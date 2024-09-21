@@ -3,3 +3,4 @@ ansible_collections/*
 !.vscode/launch.json
 !.vscode/settings.json
 !**/.gitkeep
+.venv/

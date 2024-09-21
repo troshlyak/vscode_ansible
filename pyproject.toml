@@ -3,11 +3,11 @@ name = "vscode_ansible"
 version = "0.1.0"
 description = "VSCode Ansible python dependencies"
 authors = ["Todor Tsankov <tushe@visdigita.net>"]
-packages = []
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
-ansible-core = "2.11.9"
+ansible-core = "2.15.12"
 
 
 [tool.poetry.group.dev.dependencies]
