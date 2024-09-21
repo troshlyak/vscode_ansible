@@ -13,11 +13,17 @@
 		"workbench.colorCustomizations": {
 			"titleBar.activeBackground": "#4d7ac8"
 		},
+		"powershell.cwd": "vscode_ansible",
+		"files.exclude": {
+			"**/.venv": true
+		},
 	},
 	"extensions": {
 		"recommendations": [
 			"ms-python.python",
 			"ms-python.vscode-pylance",
+			"ms-python.mypy-type-checker",
+			"ms-python.black-formatter"
 		]
 	},
 }
