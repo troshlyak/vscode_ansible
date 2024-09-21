@@ -1,0 +1,5 @@
+---
+collections:
+  - name: hello.world
+    source: https://github.com/troshlyak/hello.world.git
+    type: git
